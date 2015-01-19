@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	width:100%;
+	height:100%;
+	margin: 0;
+}
+
+
+
+
+HEADLINE {
+        font-family:Georgia,serif;
+	color:#4E443C;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+}
+
+p{
+        font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 20px;
+        margin-top: .5em; color: #666;
+}
+PARAGRAPH START {
+        font-family:Georgia,serif;
+	font-size: .8em;
+        font-weight: bold;
+	text-transform:uppercase;
+	letter-spacing:2px; 
+}
+
+
+
+
+
+
+
+.container{
+    display: block;
+	padding: 0;
+}
+
+.page1 {
+	display: block;
+	width: 100%;
+	min-width: 900px;
+	height: 730px;
+	position:relative;
+	background: url("../Photos/background2.jpg") no-repeat center center scroll;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+
+	color: white;
+	letter-spacing: 0.05em;
+	font-family: myFirstFont;
+	text-shadow: 2px 2px 2px black;
+}
+
+#center-text{
+	padding-top: 230px;
+	text-align: center;
+    vertical-align: middle;
+	width: 100%;
+}
+
+#center-text2{
+	padding-top: 130px;
+	text-align: center;
+    vertical-align: middle;
+	width: 100%;
+}
+
+#contactme{
+	padding-top: 150px;
+	text-align: center;
+    vertical-align: middle;
+	width: 100%;
+}
+
+#experience-text{
+	padding-top: 230px;
+	text-align: left;
+    vertical-align: top;
+	width: 100%;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Theano.ttf);
+}
+
+
+
+.page2{
+	margin-top: 10px;
+	
+	position:relative;
+	
+	height: 730px;
+	width:100%;
+	background: url("../Photos/crossword.png") scroll;
+	
+}
+
+
+
+.page3{
+	margin-top: 10px;
+	position:relative;
+	text-align: center;
+	height: 730px;
+	width:100%;
+	min-width:900px;
+	max-width:1600px;
+	background: url("../Photos/mapmap2.gif") no-repeat center center scroll;
+}
+
+
+#experience1{
+	width:100%;
+	height:10px;
+}
+
+#experience2{
+	width:100%;
+}
+
+#text1 {
+	margin-top:50px;
+	margin-left: 33%;
+	margin-right: 33%;
+	
+	border: groove;
+	padding: 20px;
+
+	position: relative;	
+}
+
+
+p#text1 {
+	
+	text-align: left;
+	position: absolute;
+	box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+	background: #fff;
+
+}
+
+
+#text2 {
+	margin-top:180px;
+	margin-left: 33%;
+	margin-right: 33%;
+	border: groove;
+	padding: 20px;
+	width:32%;
+	position: relative;	
+}
+p#text2 {
+		
+	text-align: left;
+	position: absolute;
+	box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+	background: #fff;
+}
+
+
+#text3 {
+	margin-top:70px;
+	margin-left: 33%;
+	margin-right: 33%;
+	border: groove;
+	padding: 20px;
+	width:32%;
+	position: relative;	
+}
+p#text3 {
+		
+	text-align: left;
+	position: absolute;
+	box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+	background: #fff;
+}
+
+
+
+#text4 {
+	margin-top:190px;
+	margin-left: 33%;
+	margin-right: 33%;
+	border: groove;
+	padding: 20px;
+	width:32%;
+	position: relative;	
+}
+p#text4 {
+		
+	text-align: left;
+	position: absolute;
+	box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+	background: #fff;
+}
+
+.page4{
+	margin-top: 10px;
+	position:relative;
+	text-align: center;
+	height: 730px;
+	width:100%;
+	
+	background: url("../Photos/crossword.png") scroll;
+	
+}
+
+#smaller{
+	font-size:15px;
+	
+}
+
+
+h4 {
+	text-align:left;
+	width: 565px;
+	
+	height: 100px;
+	margin: auto;
+	font-size: 30px;
+	
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+
+#ttu-logo, #eia-logo, #wopg-logo, #bb-logo {
+	position: absolute;
+	-webkit-border-radius: 50em;
+	-mox-border-radius: 50em;
+	border-radius: 50em;
+	height: 110px;
+	width: 110px;
+	cursor:default;
+}
+
+#ttu-logo:hover, #eia-logo:hover, #wopg-logo:hover, #bb-logo:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+	 background-color:#f2f2f2;
+	 border-color:#888;
+	 box-shadow:0 0 30px #ccc;
+}
+
+
+
+#ttu-logo{
+	left: -365px;
+	top: 55px;
+	position: relative;
+	
+}
+
+#eia-logo{
+	left: -365px;
+	top: 65px;
+	position: relative;
+}
+
+#wopg-logo{
+	left: 360px;
+	top: 285px;
+	position: relative;
+	
+}
+
+#bb-logo{
+	left: 360px;
+	top: 295px;
+	position: relative;
+}
+
+
+
+
+
+#navigation {
+	color: black;
+	font-family: myFirstFont;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-shadow: 5px 5px 5px gray;
+
+
+   -webkit-transition: color 1s 2s ease-in;
+   -moz-transition: color 1s 2s ease-in;
+   -ms-transition: color 1s 2s ease-in;
+   -o-transition: color 1s 2s ease-in;
+   transition: color 1s 2s ease-in;
+}
+	/*This transition code above was learned from the following
+	source: http://www.ironion.com/css-tutorial-simple-text-transitions-with-css3/ */
+
+
+
+
+
+
+
+
+
+#footer {
+	color:white;
+	bottom:0;
+	position:relative;
+	width:100%;
+	font-size: 10px;
+
+}
