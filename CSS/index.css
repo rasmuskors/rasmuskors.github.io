@@ -19,9 +19,10 @@ HEADLINE {
 
 p{
         font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 20px;
+        font-size: 17px;
         margin-top: .5em; color: #666;
 }
+
 PARAGRAPH START {
         font-family:Georgia,serif;
 	font-size: .8em;
@@ -99,9 +100,7 @@ PARAGRAPH START {
 
 .page2{
 	margin-top: 10px;
-	
 	position:relative;
-	
 	height: 730px;
 	width:100%;
 	background: url("../Photos/crossword.png") scroll;
@@ -109,9 +108,138 @@ PARAGRAPH START {
 }
 
 
+.page22{
+    display: block;
+    margin-top: 10px;
+	position:relative;
+	height: 730px;
+    min-width: 900px;
+	width:100%;
+    margin-bottom: 10px;
+    
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    
+    background: url("../Photos/portrait33.jpg") no-repeat center center scroll;
+    
+    
+	color: white;
+	letter-spacing: 0.05em;
+	font-family: myFirstFont;
+}
+
+
+.aboutme{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+    
+    margin: 0 auto;
+    
+    min-width: 630px;
+    max-width: 800px; 
+    
+    padding-top: 100px;
+    text-align:justify;
+    vertical-align: top;
+	width: 50%;
+ 
+}
+
+.firstcharacter { 
+    float: left; 
+    color: #666; 
+    font-size: 75px; 
+    line-height: 60px; 
+    padding-top: 4px; 
+    padding-right: 8px; }
+
+
+
+
+ul.enlarge{
+    list-style-type:none; 
+    text-align:center;
+    margin-right: 22px;
+   
+}
+
+ul.enlarge li{
+    display:inline-block; 
+    position: relative;
+    z-index: 0; 
+    margin:10px 40px 0 20px;
+
+}
+
+ul.enlarge img{
+    background-color:#eae9d4;
+    padding: 6px;
+    -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px; 
+}
+
+ul.enlarge span{
+    position:absolute;
+    left: -9999px;
+    background-color:#eae9d4;
+    padding: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size:.9em;
+    text-align: center; 
+    color: #495a62; 
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+    box-shadow: 0 0 20px rgba(0,0,0, .75);
+    -webkit-border-radius: 8px; 
+    -moz-border-radius: 8px; 
+    border-radius:8px;
+    
+    overflow: scroll;
+    max-height: 900px;
+}
+
+ul.enlarge li:hover{
+    z-index: 50;
+    cursor:pointer;
+}
+
+ul.enlarge span img{
+    padding:2px;
+    background:#ccc;
+}
+
+ul.enlarge li:hover span{ 
+    top: -570px; 
+    left: 0px; 
+}
+
+ul.enlarge li:hover:nth-child(2) span{
+    left: -247px; 
+}
+
+ul.enlarge li:hover:nth-child(3) span{
+    left: -445px;
+    max-height: 640px;
+}
+
+
+
+
 
 .page3{
 	margin-top: 10px;
+	margin: 0 auto;
 	position:relative;
 	text-align: center;
 	height: 730px;
@@ -119,7 +247,16 @@ PARAGRAPH START {
 	min-width:900px;
 	max-width:1600px;
 	background: url("../Photos/mapmap2.gif") no-repeat center center scroll;
+    
+    -moz-box-shadow:    inset 30px 0px 30px -5px #FFFFFF, inset -30px 0px 30px -5px #FFFFFF;
+    -webkit-box-shadow: inset 30px 0px 30px -5px #FFFFFF, inset -30px 0px 30px -5px #FFFFFF;
+    box-shadow:         inset 30px 0px 30px -5px #FFFFFF, inset -30px 0px 30px -5px #FFFFFF;
+    
+
+    
+   
 }
+
 
 
 #experience1{
@@ -207,6 +344,8 @@ p#text4 {
 	background: #fff;
 }
 
+
+
 .page4{
 	margin-top: 10px;
 	position:relative;
@@ -215,6 +354,7 @@ p#text4 {
 	width:100%;
 	
 	background: url("../Photos/crossword.png") scroll;
+    
 	
 }
 
@@ -244,33 +384,59 @@ h1{
 
 
 #ttu-logo, #eia-logo, #wopg-logo, #bb-logo {
-	position: absolute;
-	-webkit-border-radius: 50em;
-	-mox-border-radius: 50em;
-	border-radius: 50em;
+	
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+    
+    
 	height: 110px;
 	width: 110px;
-	cursor:default;
+	
+    position: 50% 50%;
+    origin: border-box;
+    repeat: no-repeat;
+    display: inline-block; 
+    
+    
+    
+    webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+
+    -webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+    
+    border: 20px double rgba(0, 0, 0, 0.5);
 }
+
+    
+.ryk {
+    
+}
+   
+    
+ 
 
 #ttu-logo:hover, #eia-logo:hover, #wopg-logo:hover, #bb-logo:hover{
-	-webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
-	 background-color:#f2f2f2;
-	 border-color:#888;
-	 box-shadow:0 0 30px #ccc;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, 0.5);
+    
+    
 }
 
-
+.ryk:hover{
+border: 1px double rgba(0, 0, 0, 0.7);
+}
 
 #ttu-logo{
 	left: -365px;
 	top: 55px;
 	position: relative;
-	
 }
 
 #eia-logo{
@@ -296,36 +462,28 @@ h1{
 
 
 
-#navigation {
-	color: black;
-	font-family: myFirstFont;
-	font-size: 30px;
-	text-align: center;
-	letter-spacing: 0.1em;
-	text-shadow: 5px 5px 5px gray;
-
-
-   -webkit-transition: color 1s 2s ease-in;
-   -moz-transition: color 1s 2s ease-in;
-   -ms-transition: color 1s 2s ease-in;
-   -o-transition: color 1s 2s ease-in;
-   transition: color 1s 2s ease-in;
+a {
+     
+  color: #666;
+    font-weight: bold;
+   
+    
+   
 }
-	/*This transition code above was learned from the following
-	source: http://www.ironion.com/css-tutorial-simple-text-transitions-with-css3/ */
 
+a:visited { 
+    color: #000000;
+} 
 
-
-
-
-
+ a:hover { background-color: #E6F5EB; } 
+    a:active { color: #f00; }
 
 
 
 #footer {
 	color:white;
 	bottom:0;
-	position:relative;
+	position:absolute;
 	width:100%;
 	font-size: 10px;
 
