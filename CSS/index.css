@@ -205,6 +205,7 @@ ul.enlarge span{
     -moz-border-radius: 8px; 
     border-radius:8px;
     
+    
     overflow: scroll;
     max-height: 900px;
 }
@@ -219,18 +220,28 @@ ul.enlarge span img{
     background:#ccc;
 }
 
+/*position of hover appearing photo (all)*/
 ul.enlarge li:hover span{ 
-    top: -570px; 
-    left: 0px; 
+    top: -520px; 
+    left: 90px; 
+    
 }
 
+/*addition to show the title*/
+ul.enlarge li:hover:nth-child(1) span{
+    overflow:hidden;
+}
+
+/*position of hover appearing photo 2*/
 ul.enlarge li:hover:nth-child(2) span{
-    left: -247px; 
+    left: -187px; 
+    overflow:hidden;
 }
 
+/*position of hover appearing photo 3*/
 ul.enlarge li:hover:nth-child(3) span{
-    left: -445px;
-    max-height: 640px;
+    left: -395px;
+    max-height: 540px;
 }
 
 
