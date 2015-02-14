@@ -784,9 +784,8 @@ p#text4{
 }
 
 #bb-logo{
-	left: 360px;
-	top: 295px;
-	position: relative;
+    margin-top:-900px;
+    top:-5px;
 }
     
     
