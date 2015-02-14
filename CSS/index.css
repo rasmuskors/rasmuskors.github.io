@@ -742,7 +742,7 @@ p#text1, p#text2, p#text3, p#text4 {
     
 p#text1{
         margin-bottom:  140px;
-        margin-top: 140px;
+        margin-top: 180px;
 }
     
 p#text2{
@@ -764,30 +764,26 @@ p#text4{
     
     
 #text1 {
-    margin-top:150px;
     width: 250px;
 }    
     
 #text2 {
-    margin-top:150px;
     width: 250px;
            
 }
     
  #text3 {
-    margin-top:150px;
     width:250px;
 }
     
 #text4 {
-    margin-top:150px;
     width: 250px;
 }
 
     
 
 #ttu-logo{
-	margin-top:-20px;
+	margin-top:20px;
 }
 
 #eia-logo{
@@ -805,7 +801,13 @@ p#text4{
     top:370px;
 }
     
+.page4{
+    height:600px;   
+}    
+
     
-    
+#contactme{
+    padding-top: 60px;
+}
     
 } /* Ending of Media Screen css style */
