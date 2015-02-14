@@ -143,6 +143,10 @@ PARAGRAPH START {
 }
 
 
+#page2-sign{
+    margin-top:50px;   
+}
+
 .aboutme{
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -282,7 +286,7 @@ ul.enlarge li:hover:nth-child(3) span{
 	width:100%;
 	min-width:900px;
 	max-width:1600px;
-	background: url("../Photos/mapmap2.gif") no-repeat center center scroll;
+	background: url("../Photos/mapmap2.gif")  no-repeat center center scroll;
     
     -moz-box-shadow:    inset 30px 0px 30px -5px #FFFFFF, inset -30px 0px 30px -5px #FFFFFF;
     -webkit-box-shadow: inset 30px 0px 30px -5px #FFFFFF, inset -30px 0px 30px -5px #FFFFFF;
@@ -517,6 +521,12 @@ a:visited {
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 481px) {
  
 #body {
@@ -531,7 +541,10 @@ a:visited {
 }
       
 
-    
+#page2-sign{
+    margin-top:-10px;   
+  
+}
 
     
 .aboutme{
@@ -544,16 +557,19 @@ a:visited {
     column-gap: 50px;
     
     
-    display:block; 
-   
-    position: relative;
-    
-    margin:10px 40px 0 20px;
-    
-    width: 100px;
+    margin: 0 auto;
+    clear:left;
+    width: 80%;
+    min-width:100px;
+	max-width:480px;
     height: 100%; /*This has to be 1030*/
     
-    
+    padding-top: 50px;
+    padding-left: 12%;
+    padding-right: 12%;
+   
+    vertical-align: top;
+
  
 }
 
@@ -635,12 +651,12 @@ ul.enlarge li:hover:nth-child(3) span{
 .page3{
 	margin-top: 10px;
 	margin: 0 auto;
-	position:relative;
+	position: relative;
 	text-align: center;
-	height: 1530px;
-	width:100%;
-	min-width:none;
-	max-width:none;
+	height: 1830px;
+	width: 100%;
+	min-width: 100px;
+	max-width: 480px;
 	background: url("../Photos/mapreplace.gif") scroll;
     
     
@@ -661,6 +677,7 @@ ul.enlarge li:hover:nth-child(3) span{
     
 	height: 110px;
 	width: 110px;
+    
 	
     position:relative;
     left:auto;
@@ -689,13 +706,14 @@ ul.enlarge li:hover:nth-child(3) span{
 p#text1, p#text2, p#text3, p#text4 {
     display:block;
     position:relative;
-    margin:auto;
+    margin: auto;
 }
  
 #text1, #text2, #text3, #text4 {
 	
 	margin-left: 3%;
 	margin-right: 3%;
+    padding-bottom:  30px;
 	border: groove;
 	padding: 20px;
 	width:32%; <!-- continue here-->
@@ -703,23 +721,73 @@ p#text1, p#text2, p#text3, p#text4 {
 	
 }  
     
+
+    
+p#text1{
+        margin-bottom:  140px;
+        margin-top: 140px;
+}
+    
+p#text2{
+        margin-bottom:  140px;
+        margin-top: 140px;
+}
+    
+
+p#text3{
+        margin-bottom:  140px;
+        margin-top: 140px;
+}
+        
+p#text4{
+        margin-bottom:  140px;
+        margin-top: 140px;
+}    
+
+    
+    
 #text1 {
     margin-top:150px;
-}
-   
+    width: 250px;
+}    
+    
  #text2 {
-    margin-top:250px;
+    margin-top:150px;
+    width: 250px;
+           
 }
     
  #text3 {
-    margin-top:350px;
+    margin-top:150px;
+    width:250px;
 }
     
 #text4 {
-    margin-top:550px;
+    margin-top:150px;
+    width: 250px;
 }
 
     
+
+#ttu-logo{
+	margin-top:-20px;
+}
+
+#eia-logo{
+    margin-top:325px;
+}
+
+#wopg-logo{
+    margin-top:-900px;
+    top:-5px;
+	
+}
+
+#bb-logo{
+	left: 360px;
+	top: 295px;
+	position: relative;
+}
     
     
     
