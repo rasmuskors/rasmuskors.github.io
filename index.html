@@ -35,14 +35,25 @@
          
          
          
-         
-         function textFunction() {
-           document.getElementById('text1').style.display='block';
-         document.getElementById('text2').style.display='none';
-           document.getElementById('text3').style.display='none';
-           document.getElementById('text4').style.display='none';
+       
+function detectmob() {
+   if(window.innerWidth <= 481) {
+     return true;
+   } else {
+     return false;
+   }
+}
+
+
+if(!detectmob()){
+  
+function textFunction() {
+     document.getElementById('text1').style.display='block';
+     document.getElementById('text2').style.display='none';
+     document.getElementById('text3').style.display='none';
+    document.getElementById('text4').style.display='none';
            YetAnotherFunction();
-         }
+}
          
          function textFunction2() {
            document.getElementById('text2').style.display='block';
@@ -76,6 +87,8 @@
            document.getElementById('text3').style.display='none';
            YetAnotherFunction();
          } 
+    
+}
          
     
           
@@ -94,7 +107,8 @@
              
             <div id="page2-title">
                <p>What makes my heart beat?</p>
-               <h1 style="font-size:50px;">IT + Business</h1>
+               <h1 style="font-size:50px;">IT + Business
+                </h1>
                <h5 style="margin-top:-40px; margin-left:225px;">
                   and music.
                </h5>
@@ -128,22 +142,25 @@
                 
                <ul class="enlarge">
                    
+                  
+                   
                   <li><img src="Photos/work1.jpg" width="150px" height="100px" alt="Data Visualisation" />
                      <span><img src="Photos/work1.jpg" alt="Data Visualisation" /><br />Visualised Japan's national debt in relation to objects</span>
-                    <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Close x</span>   
+                    <span id='close'>Close x</span>  
                    
                   </li>
                    
                   <li><img src="Photos/work2.jpg" width="150px" height="100px" alt="Data Visualisation" />
                      <span><img src="Photos/work2.jpg" alt="Data Visualisation" /><br />Calculated and visualised the amount of water wasted and money gained during ALS campaign</span>
                       
-                       <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Close x</span>
+                      
+                     
                   </li>
                    
                    
                   <li><img src="Photos/work3.gif" width="150px" height="100px" alt="Social Media Research" /><span>
                       <img src="Photos/work3.gif" alt="Social Media Research" /><br />Analysing leadership values using social media data</span>
-                     <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>Close x</span>
+                  
                    
                    </li>
                    

@@ -214,6 +214,7 @@ ul.enlarge img{
     background:#ccc;
     overflow:hidden; 
     
+
 }
 
 
@@ -629,48 +630,63 @@ ul.enlarge li:hover span{
 
 /*addition to show the title*/
 ul.enlarge li:hover:nth-child(1) span{
+    left: -127px;
     overflow:hidden;
     
       
-    transform: scale(0.5, 0.5);
--ms-transform: scale(0.5, 0.5);
--webkit-transform: scale(0.5, 0.5);
+transform: scale(0.8, 0.8);
+-ms-transform: scale(0.8, 0.8);
+-webkit-transform: scale(0.8, 0.8);
 
 }
 
 /*position of hover appearing photo 2*/
 ul.enlarge li:hover:nth-child(2) span{
-    left: -187px; 
+    left: -180px; 
     overflow:hidden;
     
       
-    transform: scale(0.5, 0.5);
--ms-transform: scale(0.5, 0.5);
--webkit-transform: scale(0.5, 0.5);
+transform: scale(0.7, 0.7);
+-ms-transform: scale(0.7, 0.7);
+-webkit-transform: scale(0.7, 0.7);
 
     
 }
 
 /*position of hover appearing photo 3*/
 ul.enlarge li:hover:nth-child(3) span{
-    left: -395px;
+    left: -170px;
     max-height: 540px;
     
+    
       
-    transform: scale(0.5, 0.5);
--ms-transform: scale(0.5, 0.5);
--webkit-transform: scale(0.5, 0.5);
+transform: scale(0.7, 0.7);
+-ms-transform: scale(0.7, 0.7);
+-webkit-transform: scale(0.7, 0.7);
 
     
 }
 
+
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    overflow:hidden; 
+    
+transform: scale(0.8, 0.8);
+-ms-transform: scale(0.8, 0.8);
+-webkit-transform: scale(0.8, 0.8);
+    
+}    
     
 .page3{
 	margin-top: 10px;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	height: 1830px;
+	height: 1880px;
 	width: 100%;
 	min-width: 100px;
 	max-width: 480px;
@@ -802,12 +818,18 @@ p#text4{
 }
     
 .page4{
-    height:600px;   
+    height:600px;
+    background: url("../Photos/portrait33.jpg") scroll;
+    background-position: right 300px center;
 }    
 
     
 #contactme{
     padding-top: 60px;
+}
+
+#contactme h1{
+    background:   
 }
     
 } /* Ending of Media Screen css style */
