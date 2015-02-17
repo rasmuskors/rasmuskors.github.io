@@ -603,8 +603,8 @@ a:visited {
     height: 100%; /*This has to be 1030*/
     
     padding-top: 70px;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 10%;
+    padding-right: 10%;
    
     vertical-align: top;
 
@@ -637,7 +637,7 @@ ul.enlarge span{
     
     /*position of hover appearing photo (all)*/
 ul.enlarge li:hover span{ 
-    top: -520px; 
+    top: -220px; 
     left: 90px; 
     
       
@@ -664,7 +664,6 @@ transform: scale(0.6, 0.6);
 ul.enlarge li:hover:nth-child(2) span{
     left: -180px; 
     overflow:hidden;
-    
       
 transform: scale(0.6, 0.6);
 -ms-transform: scale(0.6, 0.6);
@@ -677,6 +676,7 @@ transform: scale(0.6, 0.6);
 ul.enlarge li:hover:nth-child(3) span{
     left: -170px;
     max-height: 540px;
+    margin-bottom: 200px;
     
     
       
@@ -696,7 +696,7 @@ transform: scale(0.6, 0.6);
     background:#ccc;
     overflow:hidden;
     margin-left: 190px;
-    margin-top: 35px;
+    margin-top: 100px;
 
 
 }
@@ -709,7 +709,7 @@ transform: scale(0.6, 0.6);
     background:#ccc;
     overflow:hidden; 
     margin-left: 243px;
-    margin-top: 65px;
+    margin-top: 100px;
 
 
 }
@@ -722,7 +722,7 @@ transform: scale(0.6, 0.6);
     overflow:hidden; 
     
     margin-left: 235px;
-    margin-top: 70px;
+    margin-top: 100px;
 
     
 }
@@ -736,7 +736,7 @@ transform: scale(0.6, 0.6);
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	height: 1880px;
+	height: 100%;
 	width: 100%;
 	min-width: 100px;
 	max-width: 480px;
