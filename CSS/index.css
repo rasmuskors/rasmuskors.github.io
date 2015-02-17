@@ -207,16 +207,30 @@ ul.enlarge img{
     border-radius: 4px; 
 }
 
-#close {
+#close1 {
     float:right;
     display:inline-block;
     padding:2px 5px;
     background:#ccc;
     overflow:hidden; 
-    
-
 }
 
+
+#close2 {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    overflow:hidden; 
+}
+
+#close3 {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    overflow:hidden; 
+}
 
 
 ul.enlarge span{
@@ -668,18 +682,48 @@ transform: scale(0.7, 0.7);
 }
 
 
-#close {
+
+#close1 {
     float:right;
     display:inline-block;
-    padding:2px 5px;
+    padding:5px 5px;
+    background:#ccc;
+    overflow:hidden;
+    margin-left: 190px;
+    margin-top: 35px;
+
+
+}
+
+
+#close2 {
+    float:right;
+    display:inline-block;
+    padding:5px 5px;
+    background:#ccc;
+    overflow:hidden; 
+    margin-left: 243px;
+    margin-top: 65px;
+
+
+}
+
+#close3 {
+    float:right;
+    display:inline-block;
+    padding:5px 5px;
     background:#ccc;
     overflow:hidden; 
     
-transform: scale(0.8, 0.8);
--ms-transform: scale(0.8, 0.8);
--webkit-transform: scale(0.8, 0.8);
+    margin-left: 235px;
+    margin-top: 70px;
+
     
-}    
+}
+    
+
+    
+
     
 .page3{
 	margin-top: 10px;
