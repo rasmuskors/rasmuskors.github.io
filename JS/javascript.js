@@ -44,13 +44,13 @@ function textFunction() {
            YetAnotherFunction();
 }
          
-         function textFunction2() {
-           document.getElementById('text2').style.display='block';
-         document.getElementById('text1').style.display='none';
-           document.getElementById('text3').style.display='none';
-           document.getElementById('text4').style.display='none';
-           YetAnotherFunction();
-         }
+function textFunction2() {
+     document.getElementById('text2').style.display='block';
+     document.getElementById('text1').style.display='none';
+     document.getElementById('text3').style.display='none';
+     document.getElementById('text4').style.display='none';
+    YetAnotherFunction();
+}
          
          
          function textFunction3() {

@@ -29,9 +29,15 @@ p{
 }
 
 
-p#text1, p#text2, p#text3, p#text4 {
+p#text1{
+    display:block;   
+}
+
+p#text2, p#text3, p#text4 {
     display:none;
 }
+
+
 
 PARAGRAPH START {
         font-family:Georgia,serif;
@@ -847,7 +853,7 @@ p#text4{
 }
 
 #eia-logo{
-    margin-top:325px;
+    margin-top:345px;
 }
 
 #wopg-logo{
@@ -858,12 +864,12 @@ p#text4{
 
 #bb-logo{
     margin-top:-900px;
-    top:370px;
+    top:390px;
 }
     
 .page4{
-    height:600px;
-    background: url("../Photos/portrait33.jpg") scroll;
+    height:500px;
+    background: url("../Photos/crossword.png") scroll;
     background-position: right 300px center;
 }    
 
