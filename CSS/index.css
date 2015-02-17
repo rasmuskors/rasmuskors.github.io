@@ -548,7 +548,7 @@ a:visited {
 
 
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 440px) {
  
 #body {
     padding: 0;
@@ -864,7 +864,7 @@ p#text4{
 
 #bb-logo{
     margin-top:-900px;
-    top:400px;
+    top:390px;
 }
     
 .page4{
