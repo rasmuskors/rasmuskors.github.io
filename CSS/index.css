@@ -140,7 +140,7 @@ PARAGRAPH START {
 	-o-background-size: cover;
 	background-size: cover;
     
-    background: url("../Photos/portrait33.jpg") center center scroll;
+    background: url("../Photos/portrait33.jpg") center center scroll no-repeat;
     
     
 	color: white;
@@ -590,6 +590,12 @@ a:visited {
   
 }
 
+.page22{
+    
+    background: url("../Photos/portrait33.jpg") center center scroll;
+    
+}
+    
     
 .aboutme{
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
