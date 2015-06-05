@@ -34,15 +34,19 @@
   ga('create', 'UA-21234146-3', 'auto');
   ga('send', 'pageview');
 
-        
-          
-          
+   
       </script> <!-- javascript finished -->
+    
+       <div id="loading">
+  <img id="loading-image" src="Photos/ajax-loader-2.gif" alt="Loading..." />
+       </div>
+       
+       
       <div class="container">
          <div class="page1">
             <div id="page1-text">
                <h2>Greetings!</h2>
-                <h1>I'm Rasmus, or 罗斯蒙.. depends where we met.</h1>
+                <h1>I'm Rasmus, or 罗斯蒙.. depends where we met</h1>
             </div>
          </div>
          <!-- page1 -->
@@ -194,6 +198,13 @@
        <p id="smaller" >  &nbsp &copy; 2015 Rasmus Kors | <a href="mailto:rasmusk6rs@gmail.com">drop a note</a></p>
        </footer>
 
+    
+    <script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     $('#loading').hide();
+  });
+</script>
+    
     </body>
     
 </html>
