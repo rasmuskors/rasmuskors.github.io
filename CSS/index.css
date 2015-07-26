@@ -34,6 +34,9 @@ body {
   z-index: 100;
 }
 
+.navbar-collapse.collapse.in{
+ margin-left:25px;   
+}
 
 HEADLINE {
         font-family:Georgia,serif;
@@ -47,6 +50,14 @@ p{
     color: #666;
 }
 
+ 
+#menu a:hover{
+color: #A8E0CA    ; /*BACKGROUND color for active*/
+}
+
+#menu a:active{
+color:#81D4B2;
+}
 
 p#text1{
     display:block;   
@@ -81,7 +92,8 @@ PARAGRAPH START {
 	/* min-width: 900px; */
 	height: 730px;
 	position:relative;
-	background: url("../Photos/background2.jpg") no-repeat center center scroll;
+	background: url("../Photos/background2222.jpg") no-repeat center center scroll;
+   
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -105,11 +117,21 @@ PARAGRAPH START {
 
 
 #contactme{
-	padding-top: 150px;
+	
 	text-align: center;
     vertical-align: middle;
-	width: 100%;
+    position: relative;
+	width:520px;
+	margin:30px auto;
+	padding:125px;
+	min-height:400px;
+	height:auto;
+    margin-top:20px;
 }
+    
+	  
+}
+
 
 #experience-text{
 	padding-top: 230px;
@@ -143,14 +165,22 @@ PARAGRAPH START {
 #page2-text{
     padding-left: 10%;
     padding-right: 10%;
+    max-width: 900px;
+     
+text-align:justify;
+    margin: 0 auto;
+    
 }
 
+#page2-text p{
+  font-size: 19px;
+}
 
 .page22{
     display: block;
     margin-top: 10px;
 	position: relative;
-	height: 100%; /*has to be 100%*/
+	height: 730px;
 	width:100%;
     margin-bottom: 10px;
     
@@ -159,8 +189,8 @@ PARAGRAPH START {
 	-o-background-size: cover;
 	background-size: cover;
     
-    background: url("../Photos/portrait33.jpg") center center scroll no-repeat;
-    
+    background: url("../Photos/portrait333.jpg") center center scroll no-repeat;
+   
     
 	color: white;
 	letter-spacing: 0.05em;
@@ -169,7 +199,7 @@ PARAGRAPH START {
 
 
 #page2-sign{
-    margin-top:50px;   
+    margin-top:60px;   
 }
 
 .aboutme{
@@ -204,114 +234,7 @@ PARAGRAPH START {
     padding-right: 8px; }
 
 
-
-
-ul.enlarge{
-    list-style-type:none; 
-    text-align:center;
-    margin-right: 22px;
-   
-}
-
-ul.enlarge li{
-    display:inline-block; 
-    position: relative;
-    z-index: 0; 
-    margin:10px 40px 0 20px;
-
-}
-
-ul.enlarge img{
-    background-color:#eae9d4;
-    padding: 6px;
-    -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
-    -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
-    box-shadow: 0 0 6px rgba(132, 132, 132, .75);
-    -webkit-border-radius: 4px; 
-    -moz-border-radius: 4px; 
-    border-radius: 4px; 
-}
-
-#close1 {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-    overflow:hidden; 
-}
-
-
-#close2 {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-    overflow:hidden; 
-}
-
-#close3 {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-    overflow:hidden; 
-}
-
-
-ul.enlarge span{
-    position:absolute;
-    left: -9999px;
-    background-color:#eae9d4;
-    padding: 10px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size:.9em;
-    text-align: center; 
-    color: #495a62; 
-    -webkit-box-shadow: 0 0 20px rgba(0,0,0, .75);
-    -moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
-    box-shadow: 0 0 20px rgba(0,0,0, .75);
-    -webkit-border-radius: 8px; 
-    -moz-border-radius: 8px; 
-    border-radius:8px;
-    
-    
-    overflow: scroll;
-    max-height: 900px;
-}
-
-ul.enlarge li:hover{
-    z-index: 50;
-    cursor:pointer;
-}
-
-ul.enlarge span img{
-    padding:2px;
-    background:#ccc;
-}
-
-/*position of hover appearing photo (all)*/
-ul.enlarge li:hover span{ 
-    top: -520px; 
-    left: 90px; 
-    
-}
-
-/*addition to show the title*/
-ul.enlarge li:hover:nth-child(1) span{
-    overflow:hidden;
-}
-
-/*position of hover appearing photo 2*/
-ul.enlarge li:hover:nth-child(2) span{
-    left: -187px; 
-    overflow:hidden;
-}
-
-/*position of hover appearing photo 3*/
-ul.enlarge li:hover:nth-child(3) span{
-    left: -395px;
-    max-height: 540px;
-}
+ 
 
 
 
@@ -348,8 +271,9 @@ ul.enlarge li:hover:nth-child(3) span{
 	width:100%;
 }
 
+/*textbox that pops up, large version*/
 #text1 {
-	margin-top:50px;
+	margin-top:-50px;
 	margin-left: 33%;
 	margin-right: 33%;
 	
@@ -359,7 +283,7 @@ ul.enlarge li:hover:nth-child(3) span{
 	position: relative;	
 }
 
-
+/*text inside the pop-up box*/
 p#text1 {
 	
 	text-align: left;
@@ -371,7 +295,7 @@ p#text1 {
 
 
 #text2 {
-	margin-top:180px;
+	margin-top:70px;
 	margin-left: 33%;
 	margin-right: 33%;
 	border: groove;
@@ -389,7 +313,7 @@ p#text2 {
 
 
 #text3 {
-	margin-top:70px;
+	margin-top:-65px;
 	margin-left: 33%;
 	margin-right: 33%;
 	border: groove;
@@ -408,7 +332,7 @@ p#text3 {
 
 
 #text4 {
-	margin-top:190px;
+	margin-top:65px;
 	margin-left: 33%;
 	margin-right: 33%;
 	border: groove;
@@ -432,35 +356,59 @@ p#text4 {
     margin-right: 40%;
 }
 
+
+.pageproject{
+	margin-top: 10px;
+	 
+	height: 100%;
+	width:100%;
+    
+    position:relative;
+    background: url("../Photos/crossword.png") scroll;
+}
+
+
+
 .page4{
 	margin-top: 10px;
 	position:relative;
 	text-align: center;
 	height: 730px;
 	width:100%;
-	
-	background: url("../Photos/crossword.png") scroll;
+	background: url("../Photos/thisone2.jpg") no-repeat center center scroll;
+ 	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
     
 	
 }
 
 #smaller{
 	font-size:15px;
-	
+	height:10px;
+    text-align:center;
 }
 
 
-h4 {
-	font-size: 30px;
-}
+
 
 h2 {
-	font-size: 30px;
+	font-size: 28px;
+    text-align: center; 
 }
 
 h1{
 	font-size: 40px;
 }
+
+
+
+#contactme h1{
+ color: black;   
+}
+
 
 
 #ttu-logo, #eia-logo, #wopg-logo, #bb-logo {
@@ -509,28 +457,29 @@ h1{
 border: 1px double rgba(0, 0, 0, 0.7);
 }
 
+/*images on the large-scale map*/
 #ttu-logo{
 	left: -365px;
-	top: 55px;
+	top: -45px;
 	position: relative;
 }
 
 #eia-logo{
 	left: -365px;
-	top: 65px;
+	top: -30px;
 	position: relative;
 }
 
 #wopg-logo{
 	left: 360px;
-	top: 285px;
+	top: 160px;
 	position: relative;
 	
 }
 
 #bb-logo{
 	left: 360px;
-	top: 295px;
+	top: 175px;
 	position: relative;
 }
 
@@ -550,9 +499,24 @@ a:visited {
     
 } 
 
- a:hover { background-color: #E6F5EB; } 
-    a:active { color: #f00; }
+ a:hover { 
+background-color: #E6F5EB; 
+ } 
 
+a:active { 
+color: #f00; 
+}
+
+ 
+.contactme img:hover { 
+background-color: #E6F5EB; 
+     
+ } 
+
+.contactme img:active { 
+color: #f00; 
+    
+}
 
 
 #footer {
@@ -564,14 +528,12 @@ a:visited {
 }
 
 
-
-
-
-
-
-
-
-
+/* VERY IMPORTANT
+!
+!
+!
+*/
+ 
 
 @media screen and (max-width: 681px) {
  
@@ -600,19 +562,20 @@ a:visited {
 
 #page2-title{
     padding-top: 60px;
+    padding-bottom: 20px;
 }  
  
 
     
 #page2-sign{
-    margin-top:-10px;   
-  
+    margin-top:20px;   
+    margin-bottom: 40px;
 }
 
+
 .page22{
-    
-    background: url("../Photos/portrait33.jpg") center center scroll;
-    
+ height: 100%; 
+    background: url("../Photos/crossword.png") center center scroll;
 }
     
     
@@ -643,124 +606,6 @@ a:visited {
 }
 
     
-ul.enlarge span{
-    position:absolute;
-   
-    background-color:#eae9d4;
-    padding: 10px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size:.9em;
-    text-align: center; 
-    color: #495a62; 
-    -webkit-box-shadow: 0 0 20px rgba(0,0,0, .75);
-    -moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
-    box-shadow: 0 0 20px rgba(0,0,0, .75);
-    -webkit-border-radius: 8px; 
-    -moz-border-radius: 8px; 
-    border-radius:8px;
-    
-    
-    overflow: scroll;
-    max-height: 700px;
-}
-    
-    
-    
-    /*position of hover appearing photo (all)*/
-ul.enlarge li:hover span{ 
-    top: -220px; 
-    left: 90px; 
-    
-      
-    transform: scale(0.5, 0.5);
--ms-transform: scale(0.5, 0.5);
--webkit-transform: scale(0.5, 0.5);
-
-    
-}
-
-/*addition to show the title*/
-ul.enlarge li:hover:nth-child(1) span{
-    left: -127px;
-    overflow:hidden;
-    
-      
-transform: scale(0.6, 0.6);
--ms-transform: scale(0.6, 0.6);
--webkit-transform: scale(0.6, 0.6);
-
-}
-
-/*position of hover appearing photo 2*/
-ul.enlarge li:hover:nth-child(2) span{
-    left: -180px; 
-    overflow:hidden;
-      
-transform: scale(0.6, 0.6);
--ms-transform: scale(0.6, 0.6);
--webkit-transform: scale(0.6, 0.6);
-
-    
-}
-
-/*position of hover appearing photo 3*/
-ul.enlarge li:hover:nth-child(3) span{
-    left: -170px;
-    max-height: 540px;
-    margin-bottom: 200px;
-    
-    
-      
-transform: scale(0.6, 0.6);
--ms-transform: scale(0.6, 0.6);
--webkit-transform: scale(0.6, 0.6);
-
-    
-}
-
-
-
-#close1 {
-    float:right;
-    display:inline-block;
-    padding:5px 5px;
-    background:#ccc;
-    overflow:hidden;
-    margin-left: 190px;
-    margin-top: 100px;
-
-
-}
-
-
-#close2 {
-    float:right;
-    display:inline-block;
-    padding:5px 5px;
-    background:#ccc;
-    overflow:hidden; 
-    margin-left: 235px;
-    margin-top: 100px;
-
-
-}
-
-#close3 {
-    float:right;
-    display:inline-block;
-    padding:5px 5px;
-    background:#ccc;
-    overflow:hidden; 
-    
-    margin-left: 225px;
-    margin-top: 100px;
-
-    
-}
-    
-
-    
-
     
 .page3{
 	margin-top: 10px;
@@ -839,18 +684,18 @@ p#text1, p#text2, p#text3, p#text4 {
     
 p#text1{
         margin-bottom:  140px;
-        margin-top: 180px;
+        margin-top: 90px;
 }
     
 p#text2{
         margin-bottom:  140px;
-        margin-top: 140px;
+        margin-top: -3px;
 }
     
 
 p#text3{
         margin-bottom:  140px;
-        margin-top: -35px;
+        margin-top: -42px;
 }
         
 p#text4{
@@ -878,24 +723,24 @@ p#text4{
 }
 
     
-
+/*images of the mobile ver display*/
 #ttu-logo{
-	margin-top:20px;
+	margin-top:25px;
 }
 
 #eia-logo{
-    margin-top:350px;
+    margin-top:470px;
 }
 
 #wopg-logo{
-    margin-top:-900px;
+    margin-top:-110px;
     top:-20px;
 	
 }
 
 #bb-logo{
-    margin-top:-900px;
-    top:400px;
+    margin-top:-100px;
+    top:475px;
 }
   
 
@@ -915,12 +760,175 @@ p#text4{
 }    
 
     
-#contactme{
+.contactme{
+    margin:auto;
     padding-top: 60px;
+    width: 50%;
 }
+ 
 
-#contactme h1{
-    background:   
-}
+ 
     
 } /* Ending of Media Screen css style */
+
+
+
+ 
+
+.your-class{
+     
+}
+
+
+.your-class img{
+    height: 100%;
+    float:left;
+    margin-left:5% ;   
+     margin-right:5% ; 
+}
+
+#projectpos1{
+  
+ }
+
+/*
+#projectpos{
+    width: 350px;
+    float: left;
+    margin-right: 10%;
+        margin-left:5%;
+    text-align: justify;
+     
+}
+
+
+*/
+.your-class2{
+    margin-top:10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:450px; 
+    padding:10px;
+}
+
+
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+
+h2 {
+	font-size: 30px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+
+  
+
+.contactme
+{
+  	      
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    margin:  auto;
+    width:430px;
+    
+}
+.contactme:before, .contactme:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+   
+   
+} 
+.contactme:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+      
+}
+
+/* IMPORTANT PART */
+#box{
+ padding-top:100px;   
+}
+ 
+
+/*
+@media (max-width:1331px){
+ 
+.your-class{
+    margin: auto; 
+}
+    
+.your-class img{
+    margin-left: 0;
+}    
+     
+}
+*/
+
+
+
+@media (max-width:845px){
+#projectpos{
+ float:left; 
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+  
+ 
+    
+.your-class img{
+    height: 80%;
+    width: 80%;
+    float:left;
+    margin-left:10% ;   
+     margin-right:10% ; 
+}
+
+.contactme{
+ width:300px;
+    
+   
+ }
+
+
+.page4{
+ height:100%;
+}
+    
+#box{
+ padding-top:20px;  
+     margin-bottom:40px;
+}  
+    
+    
+}

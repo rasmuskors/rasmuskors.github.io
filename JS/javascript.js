@@ -1,35 +1,3 @@
-window.onload = function () {
-    document.getElementById('close1').onclick = function () {
-        document.getElementById('work1').style.display='none';
-         document.getElementById('close1').style.display='none';
-        
-        document.getElementById('work2').style.display='block';
-         document.getElementById('close2').style.display='block';
-        document.getElementById('work3').style.display='block';
-         document.getElementById('close3').style.display='block';
-        return false;
-    };
-    document.getElementById('close2').onclick = function () {
-        document.getElementById('work2').style.display='none';
-         document.getElementById('close2').style.display='none';
-        
-                                    document.getElementById('work1').style.display='block';
-         document.getElementById('close1').style.display='block';
-        document.getElementById('work3').style.display='block';
-         document.getElementById('close3').style.display='block';
-        return false;
-    };
-    document.getElementById('close3').onclick = function () {
-        document.getElementById('work3').style.display='none';
-         document.getElementById('close3').style.display='none';
-        
-                document.getElementById('work1').style.display='block';
-         document.getElementById('close1').style.display='block';
-        document.getElementById('work2').style.display='block';
-         document.getElementById('close2').style.display='block';
-        return false;
-    };
-};
 
 
 
@@ -53,7 +21,7 @@ function textFunction2() {
 }
          
          
-         function textFunction3() {
+function textFunction3() {
            document.getElementById('text3').style.display='block';
          document.getElementById('text1').style.display='none';
           document.getElementById('text2').style.display='none';
@@ -61,7 +29,7 @@ function textFunction2() {
            YetAnotherFunction();
          }
          
-         function textFunction4() {
+function textFunction4() {
            document.getElementById('text4').style.display='block';
          document.getElementById('text1').style.display='none';
           document.getElementById('text2').style.display='none';
@@ -69,11 +37,24 @@ function textFunction2() {
            YetAnotherFunction();
          }
          
-         function textFunction5() {
+function textFunction5() {
            document.getElementById('text4').style.display='none';
          document.getElementById('text1').style.display='none';
           document.getElementById('text2').style.display='none';
            document.getElementById('text3').style.display='none';
            YetAnotherFunction();
-         } 
-    
+         }
+
+
+
+ // FOR THE BUTTON TO RETURN BACK UP
+//browser window scroll (in pixels) after which the "back to top" link is shown
+var offset = 300,
+	//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+	offset_opacity = 1200,
+	//duration of the top scrolling animation (in ms)
+	scroll_top_duration = 700;
+   
+
+ 
+ 
