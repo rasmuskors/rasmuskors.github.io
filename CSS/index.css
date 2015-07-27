@@ -37,17 +37,23 @@ body {
 .navbar-collapse.collapse.in{
  margin-left:25px;   
 }
-
-HEADLINE {
-        font-family:Georgia,serif;
-	color:#4E443C;
-	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
-}
+ 
 
 p{
         font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
         font-size: 17px;
     color: #666;
+}
+
+
+h2 {
+	font-size: 28px;
+    text-align: center; 
+}
+
+h1{
+	 font-size: 40px;
+    font-weight:bold;
 }
 
  
@@ -67,18 +73,7 @@ p#text2, p#text3, p#text4 {
     display:none;
 }
 
-
-
-PARAGRAPH START {
-        font-family:Georgia,serif;
-	font-size: .8em;
-        font-weight: bold;
-	text-transform:uppercase;
-	letter-spacing:2px; 
-}
-
-
-
+ 
 
 
 .container{
@@ -93,22 +88,23 @@ PARAGRAPH START {
 	height: 730px;
 	position:relative;
 	background: url("../Photos/background2222.jpg") no-repeat center center scroll;
-   
-	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
-
 	color: white;
 	letter-spacing: 0.05em;
 	font-family: myFirstFont;
 	text-shadow: 2px 2px 2px black;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(Theano.ttf);
+}
+
 #page1-text{
-	padding-top: 230px;
+	padding-top: 170px;
 	text-align: center;
     vertical-align: middle;
 	width: 100%;
@@ -141,10 +137,7 @@ PARAGRAPH START {
 }
 
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(Theano.ttf);
-}
+
 
 
 
@@ -394,14 +387,6 @@ p#text4 {
 
 
 
-h2 {
-	font-size: 28px;
-    text-align: center; 
-}
-
-h1{
-	font-size: 40px;
-}
 
 
 
@@ -528,14 +513,121 @@ color: #f00;
 }
 
 
+
+.your-class img{
+    
+    float:left;
+    margin-left:5%;   
+     margin-right:5%;
+    width:40%;
+  
+}
+
+
+
+.your-class p{
+    margin-left: 5%;
+    margin-right: 10%;
+     
+}
+
+.row{
+         
+}
+    
+
+
+/*the image scroll line*/
+.your-class2{
+    margin-top:10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:450px; 
+    padding:10px;
+}
+
+
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+
+h2 {
+	font-size: 30px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+
+#box{
+ padding-top:120px;  
+     margin-bottom:40px;
+    position: relative;
+} 
+
+
+
+
+.contactme
+{
+  	      
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    margin:  auto;
+    width:430px;
+    
+}
+.contactme:before, .contactme:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+   
+   
+} 
+.contactme:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+    
+}
+
+
+
+
+
+
+
+
 /* VERY IMPORTANT
 !
 !
 !
 */
- 
-
-@media screen and (max-width: 681px) {
+@media screen and (max-width: 910px) {
  
 #body {
     padding: 0;
@@ -606,6 +698,85 @@ color: #f00;
 }
 
     
+
+#expertise{
+   bottom: 0px;
+    position: relative;
+    text-align: left;
+   margin: 0 auto;
+}
+    
+    
+    
+.page4{
+    height:500px;
+    background: url("../Photos/crossword.png") scroll;
+    background-position: right 300px center;
+}    
+
+    
+.contactme{
+    margin:auto;
+    padding-top: 60px;
+    width: 50%;
+}
+ 
+
+.your-class img{ 
+    float:left;
+    margin-left:13%;   
+     margin-right:5%; 
+  
+  
+}
+
+.your-class p{
+    margin-left: 13%;
+    margin-right: 10%;
+     
+}
+
+    
+
+#box{
+ padding-top:20px;  
+     margin-bottom:40px;
+}     
+    
+    
+    
+} /* Ending of Media Screen css style 
+-
+-
+-
+-*/
+
+
+ 
+
+   
+
+
+@media (max-width:645px){
+ 
+.contactme{
+    position: relative;
+}
+    
+.your-class img{
+    width:80%;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+   
+    
+ 
+    
+    
+    
+    
+
     
 .page3{
 	margin-top: 10px;
@@ -742,193 +913,34 @@ p#text4{
     margin-top:-100px;
     top:475px;
 }
-  
-
-#expertise{
-   bottom: 0px;
-    position: relative;
-    text-align: left;
-   margin: 0 auto;
-}
-    
-    
-    
-.page4{
-    height:500px;
-    background: url("../Photos/crossword.png") scroll;
-    background-position: right 300px center;
-}    
-
-    
-.contactme{
-    margin:auto;
-    padding-top: 60px;
-    width: 50%;
-}
- 
-
- 
-    
-} /* Ending of Media Screen css style */
-
-
-
- 
-
-.your-class{
-     
-}
-
-
-.your-class img{
-    height: 100%;
-    float:left;
-    margin-left:5% ;   
-     margin-right:5% ; 
-}
-
-#projectpos1{
-  
- }
-
-/*
-#projectpos{
-    width: 350px;
-    float: left;
-    margin-right: 10%;
-        margin-left:5%;
-    text-align: justify;
-     
-}
-
-
-*/
-.your-class2{
-    margin-top:10px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width:450px; 
-    padding:10px;
-}
-
-
-
-.cd-top.cd-is-visible {
-  /* the button becomes visible */
-  visibility: visible;
-  opacity: 1;
-}
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
-}
-
-
-h2 {
-	font-size: 30px;
-    padding-top:40px;
-    padding-bottom:40px;
-}
-
-
-  
-
-.contactme
-{
-  	      
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    margin:  auto;
-    width:430px;
-    
-}
-.contactme:before, .contactme:after
-{
-	content:"";
-    position:absolute; 
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:50%;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-   
-   
-} 
-.contactme:after
-{
-	right:10px; 
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg); 
-       -moz-transform:skew(8deg) rotate(3deg);     
-        -ms-transform:skew(8deg) rotate(3deg);     
-         -o-transform:skew(8deg) rotate(3deg); 
-            transform:skew(8deg) rotate(3deg);
       
-}
+    
+    
+    
+    
+    
+    
+    
+    
+} /* Ending of Media Screen css style*/
 
-/* IMPORTANT PART */
-#box{
- padding-top:100px;   
-}
- 
 
-/*
-@media (max-width:1331px){
- 
-.your-class{
-    margin: auto; 
+@media (max-width:500px){
+
+.your-class2{  
+    width:85%; 
+   
 }
     
-.your-class img{
-    margin-left: 0;
-}    
-     
-}
-*/
+} /* Ending of Media Screen css style*/
 
 
 
-@media (max-width:845px){
-#projectpos{
- float:left; 
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
-  
- 
-    
-.your-class img{
-    height: 80%;
-    width: 80%;
-    float:left;
-    margin-left:10% ;   
-     margin-right:10% ; 
-}
+@media (max-width:450px){
+
 
 .contactme{
- width:300px;
-    
-   
- }
-
-
-.page4{
- height:100%;
+    width:100%;
 }
     
-#box{
- padding-top:20px;  
-     margin-bottom:40px;
-}  
-    
-    
-}
+} /* Ending of Media Screen css style*/
