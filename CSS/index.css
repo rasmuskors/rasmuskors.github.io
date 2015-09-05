@@ -361,7 +361,19 @@ p#text4 {
     background: url("../Photos/crossword.png") scroll;
 }
 
+/*
+#projectpos1 img{
+    width:45px;
+}
 
+#projectpos1.slick-slide.slick-active{
+    width:45px;
+}
+
+#projectposA{
+   width:45px;
+}       
+*/
 
 .page4{
 	margin-top: 10px;
@@ -532,10 +544,6 @@ color: #f00;
      
 }
 
-.row{
-         
-}
-    
 
 
 /*the image scroll line*/
@@ -585,6 +593,8 @@ h2 {
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     margin:  auto;
     width:430px;
+    padding-bottom: 30px;
+    padding-top: 15px;
     
 }
 .contactme:before, .contactme:after
@@ -615,7 +625,6 @@ h2 {
             transform:skew(8deg) rotate(3deg);
     
 }
-
 
 
 
@@ -718,7 +727,8 @@ h2 {
     
 .contactme{
     margin:auto;
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 10px
     width: 50%;
 }
  
