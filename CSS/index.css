@@ -772,6 +772,8 @@ h2 {
  
 .contactme{
     position: relative;
+        padding-bottom: 50px;
+   
 }
     
 .your-class img{
@@ -952,6 +954,10 @@ p#text4{
 
 .contactme{
     width:100%;
+        padding-bottom: 50px;
+    
 }
+
+
     
 } /* Ending of Media Screen css style*/
