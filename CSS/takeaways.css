@@ -95,7 +95,7 @@ body{
 .sharebox {
  
 	background:  ;
-	 
+    margin:10px;
 	padding: 10px 0;
 	z-index: 1;
 	position: relative;
@@ -362,7 +362,7 @@ color: #393939;
 /* This gives the flashy look to the nav bar*/
 
 .collapse.navbar-collapse.navbar-right li a {
-  color: #FF5A09;
+  color: white;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
@@ -458,7 +458,7 @@ section button {
   font-size: 2.0rem;
   padding: 1.25rem 2.5rem;
   display: block;
-  background-color: #FF5A09;
+  background-color: white;
   color: #ffffff;
   font-weight: 300;
   -webkit-border-radius: 3px;
@@ -471,7 +471,7 @@ section button {
 
 section button:hover {
   background-color: #393939;
-  color: #FF5A09;
+  color: white;
  
 }
 
@@ -479,7 +479,7 @@ section button:hover {
 section span:hover,
 section span:active {
   text-decoration: none;
-  color: #F3843E;
+  color: white;
   border-color: #000000; 
 }
 
@@ -738,7 +738,7 @@ position: absolute;
 }
 
 .link--manko:hover {
-	color: #FF5A09;
+	color: white;
 }
 
 .link--manko::before,
