@@ -700,6 +700,7 @@ position: absolute;
 	}
 	.grid__item {
 		width: 100%;
+        height:70%;
 	}
 }
 
