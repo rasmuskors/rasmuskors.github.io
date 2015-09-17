@@ -693,21 +693,7 @@ position: absolute;
 	padding: 0.5em;
 	font-size: 1em;
 }
-
-@media screen and (max-width: 50em) {
-	.codrops-header {
-		padding: 3em 10% 4em;
-	}
-	.grid__item {
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 40em) {
-	.codrops-header h1 {
-		font-size: 1.85em;
-	}
-}
+ 
 
 
 
@@ -828,9 +814,7 @@ position: absolute;
 
 
 /* Media Queries */
-@media screen and (max-width: 50em) {
-	.link--surinami { font-size: 3em; }
-    
+
     
     
     #scroll-down{
@@ -842,22 +826,6 @@ position: absolute;
 }
     
     
-
-}
-
-@media screen and (max-width: 42em) {
-	.link--takiri { font-size: 3.5em; }
-	.link--kukuri { font-size: 3.5em; }
-	.link--nukun { font-size: 3.5em; }
-	.link--kumya { font-size: 3em; }
-	.link--manko { font-size: 3.5em; }
-	.link--urpi { font-size: 5em; }
-	.link--mallki { font-size: 3.5em; }
-	.link--ilin { font-size: 5em; }
-	.link--asiri { -webkit-transform: scale3d(0.65,0.65,1); transform: scale3d(0.65,0.65,1); }
-	.link--yaku { font-size: 4em; }
-}
-
 
 
 
