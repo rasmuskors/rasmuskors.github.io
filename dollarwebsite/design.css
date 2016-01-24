@@ -1,9 +1,68 @@
+p, h2, h1, h3{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
 h1{
   text-align: center;
     color: red;
+    font-weight: 700
+}
+
+h2,h3 {
+      text-align: center;
+}
+
+ 
+
+#previewimage {
+    width: 20%;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+  
+p{
+    
+font-size: 20px;
+}
+
+.pageproject{
+	margin-top: 10px;
+	 
+	height: 100%;
+	width:100%;
+    
+    position:relative;
 }
 
 
-.buynow{
+.your-class img{
+    
+    float:left;
+    margin-left:5%;   
+     margin-right:5%;
+    width:40%;
+  
+}
+
+
+
+.your-class p{
+    margin-left: 5%;
+    margin-right: 10%;
      
+}
+
+
+
+/*the image scroll line*/
+.your-class2{
+    margin-top:10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:450px; 
+    padding:10px;
 }
