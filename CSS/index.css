@@ -68,7 +68,7 @@ p#text1{
     display:block;   
 }
 
-p#text2, p#text3, p#text4 {
+p#text2, p#text3, p#text4, p#text5{
     display:none;
 }
 
@@ -307,7 +307,7 @@ p#text2 {
 
 
 #text3 {
-	margin-top:-65px;
+	margin-top:-240px;
 	margin-left: 33%;
 	margin-right: 33%;
 	border: groove;
@@ -326,7 +326,7 @@ p#text3 {
 
 
 #text4 {
-	margin-top:65px;
+	margin-top:-110px;
 	margin-left: 33%;
 	margin-right: 33%;
 	border: groove;
@@ -341,6 +341,25 @@ p#text4 {
 	box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
 	background: #fff;
 }
+
+
+#text5 {
+	margin-top:10px;
+	margin-left: 33%;
+	margin-right: 33%;
+	border: groove;
+	padding: 20px;
+	width:32%;
+	position: relative;	
+}
+p#text5 {
+		
+	text-align: left;
+	position: absolute;
+	box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+	background: #fff;
+}
+
 
 #expertise{
    bottom: 0px;
@@ -409,7 +428,7 @@ p#text4 {
 
 
 
-#ttu-logo, #eia-logo, #wopg-logo, #bb-logo {
+#ttu-logo, #eia-logo, #wopg-logo, #bb-logo, #cgg-logo {
 	
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
@@ -444,7 +463,7 @@ p#text4 {
     
  
 
-#ttu-logo:hover, #eia-logo:hover, #wopg-logo:hover, #bb-logo:hover{
+#ttu-logo:hover, #eia-logo:hover, #wopg-logo:hover, #bb-logo:hover, #cgg-logo:hover{
     border-width: 0;
     border-color: rgba(0, 0, 0, 0.5);
     
@@ -470,18 +489,22 @@ border: 1px double rgba(0, 0, 0, 0.7);
 
 #wopg-logo{
 	left: 360px;
-	top: 160px;
+	top: 90px;
 	position: relative;
 	
 }
 
 #bb-logo{
 	left: 360px;
-	top: 175px;
+	top: 105px;
 	position: relative;
 }
 
-
+#cgg-logo{
+	left: 360px;
+	top: 120px;
+	position: relative;
+}
 
 
 
@@ -811,7 +834,7 @@ h2 {
 }
     
     
-#ttu-logo, #eia-logo, #wopg-logo, #bb-logo {
+#ttu-logo, #eia-logo, #wopg-logo, #bb-logo, #cgg-logo {
 	
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
@@ -846,13 +869,13 @@ h2 {
 
 
     
-p#text1, p#text2, p#text3, p#text4 {
+p#text1, p#text2, p#text3, p#text4, p#text5{
     display:block;
     position:relative;
     margin: auto;
 }
  
-#text1, #text2, #text3, #text4 {
+#text1, #text2, #text3, #text4, #text5 {
 	
 	margin-left: 3%;
 	margin-right: 3%;
@@ -879,14 +902,18 @@ p#text2{
 
 p#text3{
         margin-bottom:  140px;
-        margin-top: -42px;
+        margin-top: -52px;
 }
         
 p#text4{
         margin-bottom:  40px;
-        margin-top: 140px;
+        margin-top: 40px;
 }    
 
+p#text5{
+    margin-bottom: 140px;
+    margin-top: 150px;
+}
     
     
 #text1 {
@@ -898,14 +925,17 @@ p#text4{
            
 }
     
- #text3 {
+#text3 {
     width:250px;
 }
     
 #text4 {
     width: 250px;
 }
-
+    
+#text5{
+    width: 250px;
+}
     
 /*images of the mobile ver display*/
 #ttu-logo{
@@ -918,17 +948,20 @@ p#text4{
 
 #wopg-logo{
     margin-top:-110px;
-    top:-20px;
+    top:-10px;
 	
 }
 
 #bb-logo{
     margin-top:-100px;
-    top:475px;
+    top:485px;
 }
       
     
-    
+#cgg-logo{
+    margin-top:-180px;
+    top:1060px;
+}  
     
     
     
